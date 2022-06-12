@@ -53,7 +53,7 @@ Neste projeto utilizarei as seguintes tecnologias e ferramentas.
 
 Para acessar o site *Página Pessoal* deve acessar o link a seguir. 
 
-**Site:** [Página Pessoal](https://leonardoklestadtluz.github.io/personalPage/)
+**Site:** [Página Pessoal](https://leonardoklestadtluz.github.io/personal-page/)
 
 Este projeto está em desenvolvimento. Irei adicinar melhorias para praticar.
 
