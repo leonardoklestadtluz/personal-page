@@ -50,8 +50,8 @@ body, button {
 }
 
 /* HEADER ========================= */
-header div.img-top {
-    background: url("../../assets/images/imagem-fundo-topo.svg");
+header div.img-top {	
+    background: url("../assets/images/imagem-fundo-topo.svg");
     background-size: cover;
     height: 15rem;
     width: 100%;
