@@ -1,0 +1,215 @@
+/* NAVEGATION MENU HEADER ====================== */
+ul.items-menu {
+    background: var(--bkg-button-menu-separators);
+    height: 14rem;
+    width: 100%;
+}
+
+ul.items-menu, li, a.link-menu {
+    font-family: 'Glory', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+
+    /* Alinhamento do menu */
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+li.link a.link-menu {
+    border: 0.2rem solid var(--button-details);
+    border-radius: 1rem;
+    color: var(--text-content-menu);    
+    padding: 1rem;
+
+    transition: .5s;
+}
+
+li.link a.link-menu:hover {
+    background: var(-text-details);
+    box-shadow: 0 0 3rem var(--text-content-menu), inset 0 0 5rem var(--bkg-pages);
+    color: var(--text-content-menu);
+}
+
+/* CONTAINER ================================== */
+div.container {
+    margin-bottom: -10rem;
+}
+
+/* SECTIONS ================================== */
+section.sections {
+    color: var(--text-content-menu);
+}
+
+h1.title-section {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section.sections-paragraphs {
+
+    /* APENAS PARA ORIENTAÇÃO -> REMOVER!!! */
+    /* background: blue; */
+
+    background: var(--text-details);
+    border-radius: 1rem;
+    box-shadow: 0 0 1.3rem var(--box-shadow);
+    margin: 0 auto 6rem auto;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 85%;
+}
+
+.text-content, .format, .paragraph {
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    width: 85%;
+    text-align: justify;
+
+    text-indent: 2rem;
+}
+
+.paragraph{
+    margin-top: 2rem;
+}
+
+button {
+    background: none;
+    border: none;
+    color: var(--text-read-continue);
+    font-family: 'Glory', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    margin: 1rem 5.3rem;
+
+}
+
+/* SECTION FORMATION ================================== */
+section#formation {
+    margin: 0 12.8rem 0 12.8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+p.institutions {
+    font-family: 'Glory', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+span.institution {
+    font-weight: 700;
+
+    margin-bottom: 15rem;
+}
+
+a.platform {
+    color: var(--text-details-links);
+    transition: .5s;
+}
+
+a.platform:hover {
+    color: var(--text-content-menu);
+}
+
+/* PORTFOLIO ================================== */
+section#portfolio {
+    /*background: blue; /* apenas para orientação APAGAR! */
+
+    width: 71rem;
+    height: 35.6rem;
+    margin: 2rem auto 6rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    gap: 1.5rem;
+}
+
+img.cards {
+    background: white;
+    border-radius: 1rem;
+    width: 35rem;
+    height: 17.3rem;
+
+    object-fit: cover;
+    transition: 0.7s;
+}
+
+img.cards:hover {
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* EXPERIENCE AND PERIOD ===================== */
+section#experience-period {
+    /*background: var(--text-menu);  somente para orientação - APAGAR!! */
+
+    margin: 0 auto;
+
+    width: 64.1rem;
+}
+
+/* COMPANIES ===================== */
+div.current-company,
+div.penultimate-company, 
+div.antepenultimate-company {
+    display: grid;
+    gap: 2rem;
+}
+
+.subtitle {
+    color: var(--text-content-menu);
+    /* font-size: 2rem; */
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+h3.internal {
+    margin-bottom: 1rem;
+}
+
+p {
+    color: var(--text-content-menu);
+    font-family: 'Golry', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+div.period {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+span.span-datas {
+    font-weight: 700;
+}
+
+hr.left-separator {
+    background: var(--bkg-button-menu-separators);
+    border: none;
+    border-radius: 0.2rem;
+    height: 0.5rem;
+    width: 19rem;
+    margin: 3rem 0 3rem 0;
+}

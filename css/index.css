@@ -1,0 +1,143 @@
+/* CONTEÚDO PRINCIPAL DA PAGINA */
+.main-content {
+    display: grid;
+    grid-template-columns: 49.5% 1% 49.5%;
+    grid-template-rows: 81.5rem 1fr 1fr 1fr;
+}
+
+/* LADO DIREITO DA PÁGINA */
+
+/* Sessão de nome */
+.name {
+    color: var(--text-name-button);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+/* Sessão de sub-titulos */
+h2.subtitle-side-right {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+/* Regra de detalhes do nome */
+span.span-name {
+    color: var(--span-name-details);
+}
+
+/* SESSÃO DE CONTATO */
+section.contact ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+li a img.size-contact-icon {
+    height: 4.5rem;
+    width: 4.5rem;
+
+    position: relative;
+    top: 0;
+
+    transition: .3s;
+}
+
+li a img.size-contact-icon:hover {
+    /* top: -0.4rem;
+    transition: all .2s ease-in-out; */
+
+    /* box-shadow: inset 0 -0.2rem 0.2rem #D5F4FF; */
+    top: -1rem;
+    transition: all .3s ease-in-out;
+
+}
+
+/* SESSÃO DE MEUS DADOS */
+section.my-datas ul li {
+    color: var(--text-content-menu);
+    font-family: 'Glory', sans-serif;
+}
+
+ul.datas {
+    margin-left: 4rem;
+}
+
+ul li.data {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+}
+
+ul li span.span-data {
+    font-weight: 700;
+}
+
+/* SEPARADOR VERTICAL */
+.vertical-separator {
+    background: var(--vertical-separator);
+    border: none;
+    margin-top: 5.7rem;
+    height: 71.5rem;
+    width: 0.5rem;
+}
+
+/* LADO ESQUERDO DA PÁGINA */
+.left-side-page {
+    margin: 6rem 0 0 1rem;
+}
+
+/* Estilo do botão */
+.button-personal-page {
+    border: 0.2rem solid var(--button-details);
+    border-radius: 1rem;    
+    color: var(--button-details);
+    cursor: pointer;
+    font-family: 'Glory', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin-left: 13rem;
+    padding: 1.6rem 1rem;
+    
+    transition: .5s;
+}
+
+.button-personal-page:hover {
+    border: 0.2rem solid var(--text-name-button);  
+    box-shadow: 0 0 3rem var(--bkg-button-menu-separators), inset 0 0 5rem var(--bkg-button-menu-separators);
+    border-radius: 1rem;
+    color: var(--text-name-button);
+}
+
+/* Estilo do separador */
+.separator-button {
+    background: var(--bkg-button-menu-separators);
+    border: none;
+    border-radius: 0.2rem;
+    height: 0.5rem;
+    margin: 6rem 0 6rem 18rem;
+    width: 19rem;
+}
+
+/* Estilo do texto */
+.presentation-text {
+    background: var(--text-details);
+    border-radius: 1rem;
+    box-shadow: -0.8rem 1rem 2.3rem var(--box-shadow);
+    padding: 0.3rem;
+    width: 50rem;
+}
+
+.presentation-text, p {
+    color: var(--text-content-menu);
+    font-family: 'Glory',sans-serif;    
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;    
+    margin: 2rem 4rem;
+
+    text-align: justify;
+}
